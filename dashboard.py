@@ -19,7 +19,7 @@ app = dash.Dash(__name__)
 server = app.server
 #---------------------------------------------------------------
 #Taken from https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases
-dff = pd.read_csv("D:/Backup/Desktop/NSE_Normalize.csv")
+dff = pd.read_csv("D:/Python Anywhere/NSE_Normalize.csv")
 df=dff.copy()
 #---------------------------------------------------------------
 app.layout = html.Div([
